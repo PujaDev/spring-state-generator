@@ -71,7 +71,6 @@ namespace SpringStateGenerator
                 if (property.HasDefaultValue)
                     writer.WriteLine(property.DefaultValueLine());
             }
-            writer.WriteLine("\t\tSetCharacterPosition();");
             writer.WriteLine("\t}");
 
             writer.WriteLine();
